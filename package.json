@@ -1,9 +1,8 @@
 {
-  "name": "cdk-ecs-demo",
+  "name": "awscdk-example-ecs-for-fargate",
+  "description": "This source code is a hands-on project that uses the AWS CDK to manage Amazon Web Services resources.",
   "version": "1.0.0",
-  "description": "This source code is for building ECS for CDK demo infrastructure on AWS.",
-  "license": "UNLICENSED",
-  "private": true,
+  "license": "MIT",
   "bin": {
     "infra": "bin/infra.js"
   },
