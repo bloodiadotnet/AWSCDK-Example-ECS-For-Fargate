@@ -1,0 +1,16 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+dist
+!.eslintrc.js
+
+# Docker asset 
+data
+vendor
+.DS_Store
+.env
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out

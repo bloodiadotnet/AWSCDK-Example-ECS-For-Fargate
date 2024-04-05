@@ -1,0 +1,19 @@
+# Ignore .git and .cache folders
+.git
+.cache
+
+# Ignore logs
+*.log
+
+# Ignore any env files
+*.env
+.env/*
+
+# Ignore specific Docker related files
+docker-compose*.yml
+**/Dockerfile
+**/Dockerfile.*
+
+# Ignore application specific files
+node_modules/
+dist/

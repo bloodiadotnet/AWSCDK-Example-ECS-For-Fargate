@@ -1,0 +1,42 @@
+{
+  "name": "cdk-ecs-demo",
+  "version": "1.0.0",
+  "description": "This source code is for building ECS for CDK demo infrastructure on AWS.",
+  "license": "UNLICENSED",
+  "private": true,
+  "bin": {
+    "infra": "bin/infra.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "compile": "tsc --pretty"
+  },
+  "engines": {
+    "node": ">=18.0"
+  },
+  "dependencies": {
+    "@types/config": "^3.3.4",
+    "@aws-sdk/client-ssm": "^3.549.0",
+    "cdk-ecr-deployment": "^3.0.43",
+    "aws-cdk": "^2.135.0",
+    "aws-cdk-lib": "^2.135.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.4",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.5",
+    "constructs": "^10.3.0",
+    "config": "^3.3.11",
+    "source-map-support": "^0.5.21",
+    "typescript": "^5.4.4"
+  },
+  "eslintIgnore": [
+    "/.eslintrc.js"
+  ]
+}
