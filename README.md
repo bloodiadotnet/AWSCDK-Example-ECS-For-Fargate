@@ -98,3 +98,6 @@ cdk destroy
 It removes all the resources provisioned by your AWS CDK configuration. Be careful when using this command, as it will permanently destroy all your resources.
 
 That's it. You've now deployed your infrastructure on AWS using AWS CDK!
+
+## Author
+[@bloodiadotnet](https://twitter.com/bloodiadotnet)
