@@ -1,11 +1,11 @@
 <?php
 
 // Get environment for Amazon ECS or Docker
-$dbhost = getenv("DB_HOST") ? getenv("DB_HOST") : getenv("MYSQL_HOST");
-$dbuser = getenv("DB_USERNAME") ? getenv("DB_USERNAME") : getenv("MYSQL_USER");
-$dbpass = getenv("DB_PASSWORD") ? getenv("DB_PASSWORD") : getenv("MYSQL_PASSWORD");
-$dbname = getenv("DB_DATABASE") ? getenv("DB_DATABASE") : getenv("MYSQL_DATABASE");
-$dbport = getenv("DB_PORT") ? getenv("DB_PORT") : getenv("MYSQL_PORT");
+$dbhost = getenv("DB_HOST");
+$dbuser = getenv("DB_USERNAME");
+$dbpass = getenv("DB_PASSWORD");
+$dbname = getenv("DB_DATABASE");
+$dbport = getenv("DB_PORT");
 
 // Create connection
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname, $dbport);
