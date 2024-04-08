@@ -7,10 +7,6 @@ import { InstanceClass, InstanceSize } from 'aws-cdk-lib/aws-ec2';
 import { AuroraMysqlEngineVersion } from 'aws-cdk-lib/aws-rds';
 
 export = {
-    vpc: {
-        ipAddresses: '172.22.0.0/20',
-    },
-
     rds: {
         engineVersion: AuroraMysqlEngineVersion.VER_3_06_0,
         instanceClass: InstanceClass.BURSTABLE4_GRAVITON,
