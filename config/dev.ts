@@ -56,7 +56,7 @@ export = {
         app: {
             removalPolicy: RemovalPolicy.DESTROY,
             imageTagMutability: TagMutability.MUTABLE,
-            imageScanOnPush: false,
+            imageScanOnPush: true,
             emptyOnDelete: true,
             platform: Platform.LINUX_AMD64,
         },
